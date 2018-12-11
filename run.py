@@ -22,4 +22,5 @@ driver.save_screenshot('douban.png')
 with open('douban.html', "w") as f:
     f.write(driver.page_source)
 
-driver.close()
+# driver.close()
+driver.quit()
